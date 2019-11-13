@@ -1,0 +1,15 @@
+/*pode-se usar # para modificar um "id" criadop na página, porém o id só pode ser usado uma única vez por página*/
+a{
+	color: red;
+	text-decoration: none;
+	font-size: 18px;
+}
+h1{
+	font-family: helvetica, sans-serif;
+}
+#Segundo{
+	color: orange;
+}
+a.link{/*A "class" pode ser usada várias vezes e é identificada no CSS por .link, o id só pode ser usado uma única vez e é identificada por # */
+	color: green;
+}

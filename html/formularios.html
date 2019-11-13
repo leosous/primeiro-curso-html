@@ -1,0 +1,39 @@
+﻿<!doctype html>
+
+<html>
+	<head>
+		<title>Trabalho com formulários</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="estilo-formulario.css" />
+	</head>
+
+	<body>
+		<form action="" method="get"><!--não definir a action irá enviar os dados para a página atual. action = serve para fazer o envio para outra página onde vai ser tratado a informações, o PHP é uma linguagem de programação, nele é que serão tratadas as informações. Existem duas formas mais utilizadas para fazer esse envio, para isso é utilizado o "method", pode ser get que mostra as informações no endereço da página URL, já o method post, envia as informações de forma escondida na página, para que somente a linguagem de programação possa ver essas informações, tb pode ser utilizadas class e id-->
+			<p>Dados pessoais</p>
+			<label for="nome">Nome Completo:*</label>
+			<input id="nome" type="text" placeholder="Digite aqui o seu nome completo" name="nome" required />
+			<label for="tel">Telefone:</label>
+			<input id="tel" type="Tel" placeholder="(XX) XXXXX-XXXX" name="tel" />
+			<label for="e-mail">E-mail:*</label>
+			<input id="e-mail" type="email" placeholder="usuario@exemplo.com" name="e-mail" required />
+			<label for="cpf">CPF:*</label>
+			<input maxlength="14" id="cpf" type="text" placeholder="Digite aqui seu CPF" name="cpf" required />
+			<label for="rg">RG:</label>
+			<input id="rg" type="text" placeholder="Digite aqui seu RG" name="rg" />
+			<p>Endereço</p>
+			<label for="rua">Rua*:</label>
+			<input id="rua" type="text" placeholder="Digite o nome da Rua aqui" name="rua" required />
+			<label for="opcao">Você gostou do site?</label>
+			<input id="opcao" type="radio" name="opcao" value="sim" checked="cheked" /> Sim
+			<input type="radio" name="opcao" value="nao" /> Não
+			<label for="opcao">Você quer aprender mais sobre:</label>
+			<input type="checkbox" name="html" />HTML
+			<input type="checkbox" name="css" />CSS
+			<input type="checkbox" name="java" />JAVA
+			<input type="checkbox" name="web" />WEB
+			<textarea name="msg" placeholder="Deixe sua mensagem aqui."></textarea>
+			<input type="submit" value="Enviar" />
+		</form>
+	<a href="primeiro-layout.html">Voltar</a>	
+	</body>
+</html>

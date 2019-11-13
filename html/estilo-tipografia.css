@@ -1,0 +1,15 @@
+h1{
+	color: #ff6600; /*tabelça de cor hexadecimal*/
+	letter-spacing: -1px; /*espeçamento entre as letras*/
+	text-transform: capitalize; /*viza transformar a letra em maíuscula ou minúscula*/
+	font-family: 'Parisienne', cursive;
+	width: 650px;
+	text-shadow: 1px -1px 1px black; /*sombra primeiro no eixo x depoix no eixo y e terceiro é referente ao desfoque da sombra*/
+}
+p{
+	width: 650px;
+	text-align: justify; /*visa fazer o alinhamento do texto*/
+	font-size: 18px;
+	font-family: verdana, arial, sans-serif;
+
+}
